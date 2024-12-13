@@ -40,6 +40,10 @@ html {
     margin-top: 8px !important;
 }
 
+.mt-16 {
+    margin-top: 16px !important;
+}
+
 .row {
     margin-left: -8px;
     margin-right: -8px;
@@ -69,7 +73,6 @@ html {
     height: 46px;
     background-color: #000;
     z-index: 1;
-    overflow: hidden;
 }
 
 #nav {
@@ -131,6 +134,14 @@ html {
 #nav .nav-arrow-down {
     font-size: 12px;
 }
+
+#header .mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
 
 #header .mobile-menu-btn,
 #header .search-btn {
@@ -269,7 +280,7 @@ html {
 }
 
 .place-list {
-    margin-top: 32px;
+    margin-top: 16px;
     padding-bottom: 48px;
 }
 
@@ -311,6 +322,7 @@ html {
     display: inline-block;
     margin-top: 15px;
     cursor: pointer;
+    text-align: center;
 }
 
 .place-buy-btn:hover {
